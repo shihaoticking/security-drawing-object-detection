@@ -4,8 +4,9 @@ models/
 # Training runs and experiments
 runs/
 
-# Virtual environment
-venv-train/
+
+# Data
+dataset/
 
 # Python
 __pycache__/
@@ -46,6 +47,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+venv*/
 
 # IDE
 .vscode/
