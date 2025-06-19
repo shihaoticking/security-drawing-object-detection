@@ -1,6 +1,6 @@
-from ultralytics import YOLO
-import yaml
 import torch
+import yaml
+from ultralytics import YOLO
 
 
 def load_config(config_path):
