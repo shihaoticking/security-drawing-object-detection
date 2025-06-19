@@ -1,0 +1,17 @@
+# Training parameters
+epochs: 500
+img_size: 640
+batch_size: 32
+patience: 50  # early stopping patience
+device: 'auto'  # 'auto', 'cpu', or '0' for GPU - will be auto-detected
+workers: 4
+
+# Project settings
+project: 'runs/train'
+name: 'exp'
+exist_ok: true  # overwrite existing experiment
+
+# Model settings
+pretrained: true  # use pretrained weights
+optimizer: 'auto'  # 'SGD', 'Adam', 'auto'
+verbose: true
