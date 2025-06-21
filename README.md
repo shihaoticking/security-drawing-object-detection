@@ -2,6 +2,8 @@
 
 A computer vision prototype for detecting doors in security drawings using YOLOv11n object detection model.
 
+![Gradio demo](asset/gradio_demo.mp4)
+
 ## Project Overview
 
 This project implements a door detection system for security drawings using computer vision techniques. The system can:
